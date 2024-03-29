@@ -1,0 +1,34 @@
+/** footer */
+.fboxwraper{
+    
+    width: 100%;
+    height: 350px;
+    
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+
+@media (max-width:800px){
+    .fboxwraper{
+        background-color: #000000;
+        height: 500px;
+    }
+}
+.footerbox2 ,  .footerbox3, .footerbox4{
+    padding-left: 30px;
+
+}
+
+@media (max-width:520px){
+    .footerbox2 ,  .footerbox3, .footerbox4{
+        padding-left: 0px;
+    }
+}
